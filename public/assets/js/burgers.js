@@ -1,13 +1,14 @@
 $(function() {
     $(".change-eat").on("click", function(event) {
         var id = $(this).data("id");
-        var newBurger = $(this).data("newBurger");
-
+        var newBurger = $(this).data("newburger");
+        console.log("what is going on")
+        console.log(id)
         var newBurgerState = {
             isEaten: newBurger
         };
 
-        $.ajax("/api/burger/" + id, {
+        $.ajax("/api/burgers/" + id, {
             type: "PUT",
             data: newBurgerState
         }).then(
@@ -43,7 +44,7 @@ $(function() {
         console.log("delete")
         var id = $(this).data("id");
         console.log(id)
-        $.ajax("/api/burger/" + id, {
+        $.ajax("/api/burgers/" + id, {
             type: "DELETE",
             id: id
         }).then(
