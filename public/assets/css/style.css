@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+    background-color: lightgoldenrodyellow;
 }
 
 li {
     padding: 5px;
     margin: 5px;
-    background: darkgray;
+    background: rgb(160, 154, 154);
 }
 
 .label {
@@ -19,6 +19,6 @@ li {
     background: aqua;
 }
 
-.form-group {
+.create-form {
     margin-bottom: 5px;
 }
