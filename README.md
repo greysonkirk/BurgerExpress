@@ -52,3 +52,8 @@ ORM's were also used for this app.
         });
     },
 ```
+
+
+
+![](public/assets/css/ss1.PNG)
+![](public/assets/css/ss2.PNG)
